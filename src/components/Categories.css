@@ -1,0 +1,80 @@
+.categories-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 1rem;
+  background-color: white;
+  box-shadow: none;
+  position: relative;
+  top: 4.375rem;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.category:hover .icon {
+  color: #ff5a5f;
+}
+
+.category:hover .name {
+  border-bottom: 2px solid #ff5a5f;
+  padding-bottom: 4px;
+}
+
+.icon {
+  margin-bottom: 0.5rem;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1.1rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #484848;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter-button svg {
+  margin-right: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.filter-button span {
+  margin-left: 0.5rem;
+}
+
+.filter-button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.filter-button:focus {
+  outline: none;
+}
+
+.filter-button span {
+  margin-left: 0.5rem;
+}
